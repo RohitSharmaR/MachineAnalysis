@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MachineAnalysis
+  host: MachineAnalysis
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - MachineAnalysis-cloudantNoSQLDB
+  - Device Managment
+  - Internet of Things Platform For IBM Stream POC
